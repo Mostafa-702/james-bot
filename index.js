@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
 client.user.setActivity("Made in Github");
-console.log(bot.user.username + " Ready");
+console.log(client.user.username + " Ready");
 });
 
 client.on('message', async message => {
